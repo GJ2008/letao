@@ -29,7 +29,12 @@ a:active{
     left: 0;
     top: 0;
     z-index:999;
+    transition: transform 1s;
 }
+.lt_aside.current{
+    transform:  translate(-180px);
+}
+
 .lt_aside .brand a{
     height: 50px;
     line-height: 50px;
@@ -76,6 +81,10 @@ a:active{
     height: 2000px;
     padding-left: 180px;
     background-color: pink;
+    transition: all 1s;
+}
+.lt_main.current{
+    padding-left: 0;
 }
 .lt_main .lt_topbar{
     width: 100%;
@@ -84,6 +93,10 @@ a:active{
     top: 0;
     background-color: #3C8DBC;
     padding-left: 180px;
+    transition: all 1s;
+}
+.lt_main .lt_topbar.current{
+    padding-left: 0;
 }
 .lt_main .lt_topbar a{
     width: 50px;
@@ -95,7 +108,13 @@ a:active{
 }
 .lt_main .container{
     padding-top: 50px;
+    height: 100%;
+    width: 100%;
 }
 .lt_main .container .breadcrumb{
     margin-top: 20px;
+}
+
+.modal-body{
+    color:#A94442;
 }
