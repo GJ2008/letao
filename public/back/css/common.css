@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body_bgc{
+    background:#222D32;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active{
+    text-decoration: none;
+}
+.panel-heading{
+    padding: 20px 0;
+}
+.panel-heading h3{
+    font-size: 20px;
+}
+.mg_150{
+    margin-top: 150px;
+}
+.lt_aside{
+    width: 180px;
+    height: 100%;
+    background-color: #222D32;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index:999;
+}
+.lt_aside .brand a{
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    width: 100%;
+    background-color: #367FA9;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+.lt_aside .user{
+    text-align: center;
+    padding-top: 30px;
+}
+.lt_aside .user img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+
+}
+.lt_aside .user p{
+    color: #fff;
+    font-size: 18px;
+    /* text-align: center; */
+    padding: 20px 0;
+}
+.lt_aside .nav a{
+    display: block;
+    height: 40px;
+    line-height: 40px;;
+    color: #fff;
+    text-align: right;
+    padding-right: 60px;
+    font-size: 14px;
+    border-left: 3px solid transparent;
+}
+.lt_aside .nav a:hover,
+.lt_aside .nav a.current{
+    border-left: 3px solid #006699;
+    background-color: #1D1F21;
+}
+.lt_main{
+    width: 100%;
+    height: 2000px;
+    padding-left: 180px;
+    background-color: pink;
+}
+.lt_main .lt_topbar{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #3C8DBC;
+    padding-left: 180px;
+}
+.lt_main .lt_topbar a{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+.lt_main .container{
+    padding-top: 50px;
+}
+.lt_main .container .breadcrumb{
+    margin-top: 20px;
+}

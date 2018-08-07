@@ -5,8 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="lib/bootstrap-validator/css/bootstrapValidator.css">
+    <link rel="stylesheet" href="css/common.css">
 </head>
 <body>
-    
+    <!-- 侧边栏 -->
+    <div class="lt_aside">
+        <div class="brand">
+            <a href="#">乐淘主页</a>
+        </div>
+        <div class="user">
+            <img src="./images/02.jpg" alt="">
+            <p>超级管理员</p>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="#"><i class="glyphicon glyphicon-user"></i> 用户管理</a></li>
+                <li>
+                    <a href="#"><i class="glyphicon glyphicon-list"></i> 分类管理</a>
+                    <div class="child" style="display:none">
+                        <a href="#"> 一级分类</a>
+                        <a href="#"> 二级分类</a>
+                    </div>
+                </li>
+                <li><a href="#" class="current"><i class="glyphicon glyphicon-tags "></i> 商品管理</a></li>
+            </ul>#
+        </div>
+        
+    </div>
+    <!-- 右侧 -->
+    <div class="lt_main">
+        <div class="lt_topbar clearfix">
+            <a href="#" class="pull-left"><i class="glyphicon glyphicon-align-justify"></i></a>
+            <a href="#" class="pull-right"><i class="glyphicon glyphicon-log-out"></i></a>
+        </div>
+        <div class="container">
+            <ol class="breadcrumb">
+                <li><a href="#">管理系统</a></li>
+                <li class="active">用户管理</li>
+            </ol>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="./lib/jquery/jquery.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+    <script src="lib/bootstrap-validator/js/bootstrapValidator.min.js"></script>
+    <script src="js/common.js"></script>
 </body>
 </html>
