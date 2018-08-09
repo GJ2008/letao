@@ -44,6 +44,9 @@ $(function(){
         $('.lt_main .lt_topbar').toggleClass('current');
     })
     //模态框 ajax请求退出
+    $('.icon_logout').click(function(){
+        $('#logoutModal').modal("show");
+    })
     $('.modal-footer .btn-logout').click(function(){
         $.ajax({
             url:'/employee/employeeLogout' ,

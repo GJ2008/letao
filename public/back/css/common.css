@@ -80,7 +80,7 @@ a:active{
     width: 100%;
     height: 2000px;
     padding-left: 180px;
-    background-color: pink;
+    /* background-color: pink; */
     transition: all .5s linear;
 }
 .lt_main.current{
@@ -117,4 +117,9 @@ a:active{
 
 .modal-body{
     color:#A94442;
+}
+.table.table-bordered th,
+.table.table-bordered td{
+    text-align: center;
+    vertical-align: center;
 }
