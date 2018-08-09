@@ -97,6 +97,7 @@ a:active{
     background-color: #3C8DBC;
     padding-left: 180px;
     transition: all .5s linear;
+    z-index: 666;
 }
 .lt_main .lt_topbar.current{
     padding-left: 0px;

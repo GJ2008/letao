@@ -17,7 +17,7 @@ $(function() {
       type: "get",
       data: {
         page: currentPage,
-        pageSize: pageSize
+        pageSize: pageSize,
       },
       success: function( info ) {
         var htmlStr = template( "secondTpl", info );
@@ -33,6 +33,7 @@ $(function() {
           totalPages: Math.ceil( info.total / info.size ),
           // 注册每个页码的点击事件
           onPageClicked: function( a, b, c, page ) {
+            
             // 重新渲染页面
             currentPage = page;
             render();
