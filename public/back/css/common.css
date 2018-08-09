@@ -29,7 +29,7 @@ a:active{
     left: 0;
     top: 0;
     z-index:999;
-    transition: transform 1s;
+    transition: all .5s linear;
 }
 .lt_aside.current{
     transform:  translate(-180px);
@@ -81,7 +81,7 @@ a:active{
     height: 2000px;
     padding-left: 180px;
     background-color: pink;
-    transition: all 1s;
+    transition: all .5s linear;
 }
 .lt_main.current{
     padding-left: 0;
@@ -93,10 +93,10 @@ a:active{
     top: 0;
     background-color: #3C8DBC;
     padding-left: 180px;
-    transition: all 1s;
+    transition: all .5s linear;
 }
 .lt_main .lt_topbar.current{
-    padding-left: 0;
+    padding-left: 0px;
 }
 .lt_main .lt_topbar a{
     width: 50px;
